@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu_registro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.automotriz.automotriz.MenuRegistro">
+
+
+    <ImageView
+        android:layout_width="250dip"
+        android:layout_height="100dip"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/imageView2" />
+
+    <Button
+        android:text="Volver"
+        android:backgroundTint="#2E2EFE"
+        android:shadowColor="#FA5858"
+        android:textColorHighlight="#2E2EFE"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVolver"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Registrar"
+        android:backgroundTint="#FF0000"
+        android:shadowColor="#FA5858"
+        android:textColorHighlight="#2E2EFE"
+        android:layout_width="280dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/btLogin"
+        android:layout_above="@+id/btnVolver"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:fontFamily="cursive"
+        android:hint="Correo"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtCorreo"
+        android:textColor="#FF0000"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/txtuser"
+        android:layout_alignStart="@+id/txtuser" />
+
+    <EditText
+        android:hint="contraseña"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtpass"
+        android:fontFamily="cursive"
+        android:textColor="#FF0000"
+        android:layout_below="@+id/txtCorreo"
+        android:layout_alignLeft="@+id/txtCorreo"
+        android:layout_alignStart="@+id/txtCorreo" />
+
+    <EditText
+        android:fontFamily="cursive"
+        android:hint="Nombre"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtuser"
+        android:textColor="#FF0000"
+        android:layout_above="@+id/txtCorreo"
+        android:layout_centerHorizontal="true"  />
+
+
+</RelativeLayout>

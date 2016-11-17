@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "809909931916",
+    "firebase_url": "https://mibd-e0bad.firebaseio.com",
+    "project_id": "mibd-e0bad",
+    "storage_bucket": "mibd-e0bad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809909931916:android:43b345f55e3afc38",
+        "android_client_info": {
+          "package_name": "com.automotriz.automotriz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809909931916-n0152uboaoursqmatu8gqg1c75khkmqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpyHm5vwg61KZQaApmjcYkR4PWO08Bdz0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

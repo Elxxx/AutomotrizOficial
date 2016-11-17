@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Automox</string>
+    <string name="entrada">Copyrigth Automox.cl</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configuracion</string>
+    <string name="title_activity_menu_login">MenuLogin</string>
+
+    <string-array name="paises">
+        <item>Hyundai </item>
+        <item>Chevrolet</item>
+        <item>Nissan</item>
+        <item>Toyota</item>
+        <item>Ford</item>
+    </string-array>
+
+</resources>
+
+
